@@ -1,2 +1,4 @@
-render/*
+**/__pycache__
 .vscode/
+
+render/*
