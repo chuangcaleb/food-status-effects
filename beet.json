@@ -1,0 +1,6 @@
+{
+	"name": "Cycle Offhand Arrows",
+	"data_pack": {
+		"load": ["src"]
+	}
+}
