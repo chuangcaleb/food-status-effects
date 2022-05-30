@@ -1,11 +1,9 @@
-
 extend:
-- beet.yml
+  - cycle_offhand_arrows.yml
 version: 0.1.0
 output: releases
 data_pack:
   zipped: true
 pipeline:
-- beet.contrib.minify_json
-- beet.contrib.minify_function
-
+  - beet.contrib.minify_json
+  - beet.contrib.minify_function
