@@ -1,0 +1,21 @@
+extend:
+  - default.yml
+name: Cycle Offhand Arrows
+description:
+  Cycle through arrow types in your offhand by pressing the offhand hotkey
+  while holding a bow or crossbow!
+data_pack:
+  name: cycle-offhand-arrows
+  description:
+    Cycle your arrow types in the offhand by pressing the offhand hotkey
+    while holding a bow or crossbow!
+pipeline:
+  - beet.contrib.scoreboard
+meta:
+  installation_advancement:
+    author_description: https://www.planetminecraft.com/member/calebchan/
+    icon:
+      item: minecraft:arrow
+    project_advancement_path: cchesed:cyclearrows/installed
+  credits:
+    link: https://www.planetminecraft.com/member/calebchan/

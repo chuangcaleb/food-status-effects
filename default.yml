@@ -1,0 +1,12 @@
+
+author: cchesed
+output: render
+pipeline:
+- beet.contrib.installation_advancement
+- plugins.credits
+data_pack:
+  load: src
+  render:
+    functions:
+    - 'cchesed:'
+

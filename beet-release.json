@@ -1,8 +1,0 @@
-{
-	"extend": ["beet.json"],
-	"version": "0.1.0",
-	"output": "releases",
-	"data_pack": {
-		"zipped": true
-	}
-}
