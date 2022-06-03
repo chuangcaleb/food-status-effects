@@ -1,7 +1,7 @@
 extend:
   - default.yml
 output: render
-description: Regular foods also give small status effects!
+description: Adds relevancy and status buffs to obscure foods!
 name: Food Status Effects Pack v1.0
 data_pack:
   name: food-status-effects

@@ -1,117 +1,199 @@
 # ---------------------------------- sugars ---------------------------------- #
+# Sugars are sweet, besides also being the brewing recipe for speed potions, sugars give speed.
+# Vitamins/Fruits give regeneration
 
+# The standard Apple. Players get a few from chopping trees, from chest loot, but can only properly farm them with late-game fancy tree farms (manual Spruce tree plantations maximise Wood output, but don't drop Apples).
+# As such, they give quite good effects.
+# An Apple's effects should also precursor the golden apple, since the latter is an upgrade of the former.
 apple:
   - [speed, 10, 1]
-  - [regeneration, 5, 1]
+  - [regeneration, 10, 1]
 
+# Melons are hard to find, easy to amass, but only feeds one hunger point.
+# Since Melons are a precursor to Glistening Melons, they could provide the player with instant-health.
+# Yet, Instant Health I is very powerful, and players would rather keep melons than brew Instant Health pots.
+# So, Regen IV for 0:04 gives 1.5 hearts.
 melon_slice:
   - [regeneration, 1, 4]
 
+# Pumpkin Pies are famous for high hunger points but low saturation.
+# Crafted with sugar, they should give speed.
+# Crafting with an egg, perhaps they can give health? Something that sets them apart.
+# Perhaps like instant hunger points but not overtime saturation, pie can give instant health.
+# Carved pumpkins obscure your vision, but we can't be giving Blindness every time a player eats a pie
 pumpkin_pie:
-  - [speed, 1, 1]
+  - [speed, 20, 1]
+  - [instant_health, 1, 1]
 
+# Honey is a relatively obscure food and needs some steps to obtain
+# Stacks to 16, clears poison and weakness too
+# The idea of honey is quite prestigious
+# Thought it looked kind of golden + sweet, so regeneration and absorption like a GApple. They're different enough, since they stack to 16, spits out empty bottles.
+# They could also grant haste, because of the term "busy bee".
 honey_bottle:
   - [haste, 10, 1]
   # - [regeneration, 5, 2]
   # - [absorption, 30, 1]
 
+# Cookies are small bites, 8 per craft.
+# Coaca Beans are quite elusive to obtain and niche to use (no other uses).
+# Cookies could be the speed equivalent of the Melon's health.
+# Very quick and short bursts of sugar-high speed.
 cookie:
   - [speed, 10, 3]
 
+# Sweet Berries are exactly like Melons, in that they are fruits that grant only one hunger point.
+# Foxes do eat berries, and they are known for being quick, so speed.
 sweet_berries:
-  - [speed, 10, 1]
-
-# enchanted_golden_apple:
-# - [speed, 1, 1]
-
-# ---------------------------------- utility --------------------------------- #
-
-golden_apple:
-  # - [absorption, 5, 3]
-  - [regeneration, 5, 3]
-
-golden_carrot:
-  - [night_vision, 20, 1]
-
-glow_berries:
-  - [glowing, 10, 1]
-
-mushroom_stew:
-  - [instant_health, 1, 1]
-  - [regeneration, 10, 2]
-
-beetroot_soup:
-  - [strength, 10, 1]
-
-rabbit_stew:
-  - [speed, 30, 1]
-  - [jump_boost, 30, 1]
-
-chorus_fruit:
-  - [invisibility, 3, 1]
-
-milk_bucket:
-  - [regeneration, 10, 1]
-
-spider_eye:
-  - [night_vision, 10, 1]
-
-poisonous_potato:
-  - [poison, 5, 5]
-  - [poison, 25, 1]
-
-# pufferfish:
-#   - [speed, 1, 1]
-
-#   - [haste, 10, 1]
-#   - [speed, 10, 3]
-#   - [slowness, 30, 1]
-#   - [weakness, 30, 1]
+  - [speed, 5, 2]
+  - [regeneration, 5, 1]
 
 # ----------------------------------- carbs ---------------------------------- #
 
+# Carbs give you some resistance, I thought it'd be quite nice and straightforward
+# I thought to buff Bread and Baked Potato from 4 to 6 hunger points — they are quite filling.
+# Bread would be equivalent to Baked Potato, that's alright
+
 bread:
   - [resistance, 10, 1]
+  - [saturation, 1, 1]
 
 potato:
   - [resistance, 3, 1]
 
 baked_potato:
-  - [resistance, 20, 1]
+  - [resistance, 10, 1]
+  - [saturation, 1, 1]
 
+# Carrots are said to improve your eyes. Why not
+# Also as a precursor to golden carrots
 carrot:
-  - [speed, 1, 1]
+  - [night_vision, 15, 1]
 
 beetroot:
-  - [speed, 1, 1]
-
-# steak:
-#   - [speed, 1, 1]
-
-# cooked_chicken:
-#   - [speed, 1, 1]
-
-# ----------------------------------- meat ----------------------------------- #
-
-# cooked_porkchop:
-#   - [speed, 1, 1]
-
-cooked_mutton:
-  - [resistance, 20, 1]
-
-cooked_rabbit:
-  - [speed, 10, 1]
-  - [jump_boost, 10, 1]
+  - [resistance, 3, 1]
 
 # ----------------------------------- ocean ---------------------------------- #
 
+# Lore proposition: Dolphins eat fish and have Dolphin's Grace to swim fast, so players also get Dolphin's Grace when they eat fish.
+
+# IRL, Salmon powerfully swim up rapids to lay eggs. They grant long Dolphin's Grace.
+salmon:
+  - [dolphins_grace, 5, 1]
 cooked_salmon:
   - [dolphins_grace, 10, 1]
 
+# Cod gives slightly less saturation, but obtaining them is just like salmon.
+# To give some uniqueness, they could be a middle-ground, jack-of-two-trades between dolphin's grace and water breathing
+# Where salmon is suited for surface-swimming, cod could be more used for underwater-swimming.
+cod:
+  - [dolphins_grace, 3, 1]
+  - [water_breathing, 3, 1]
 cooked_cod:
-  - [dolphins_grace, 5, 1]
-  - [water_breathing, 5, 1]
+  - [dolphins_grace, 6, 1]
+  - [water_breathing, 6, 1]
 
+# Players never visit the ocean floor because of the hassle of swimming up when they lose their air bubbles, or they just bring a bunch of doors for air pockets.
+# Dried Kelp are quick snacks that grant one hunger point.
+# What if they grant a small duration of water breathing??
+# Players can just munch on Dried Kelp to keep their air replenished, keeping track of a second timer.
+# Players wouldn't need to wait for late-game brewing just to get water breathing potions; yet Dried Kelp doesn't replace it, because a passive 8:00 minutes is way better than having to eat every 10 seconds.
+# I've also added a bit of hunger as I've found that if players get fully fed when they're deep underwater, they can't eat more seaweed to replenish their water breathing, and then get stuck and drown.
+# Anyways, seaweed would be more of a utility item.
 dried_kelp:
   - [water_breathing, 10, 1]
   - [hunger, 2, 1]
+
+# pufferfish: lots of effects already
+
+# ----------------------------------- meat ----------------------------------- #
+
+# cooked_beef: too normie
+# cooked_porkchop: too normie
+# cooked_chicken: slow falling? but that'd be too end-game
+
+# Nobody ever eats mutton, when Cooked Beef or even Cooked Porkchops are a thing.
+# Since sheep have a layer of thick wool, what if mutton grants resistance?
+cooked_mutton:
+  - [resistance, 15, 1]
+
+# No one ever considers having rabbit. They're so challenging to catch to kill, and no one makes a rabbit farm either.
+# Jump Boost I would be an interesting effect. Some players would be able to leap over fences or larger gaps, which would make for interesting PVP/PVE situations.
+cooked_rabbit:
+  - [speed, 15, 1]
+  - [jump_boost, 15, 1]
+
+# ---------------------------------- special --------------------------------- #
+
+# Do you want an incresed regeneration from II to III?
+# golden_apple:
+# - [absorption, 5, 3]
+# - [regeneration, 5, 3]
+# enchanted_golden_apple: already iconic
+
+# No one ever eats spider eyes. They only give one hunger point and even give you poison.
+# Since they are eyes, what if they gave you temporary night vision?
+# In 10 seconds, the night vision would be flashing and disorientating, but it would be a good early-game option when players are stuck in the dark.
+spider_eye:
+  - [night_vision, 10, 1]
+
+# Since Golden Carrots are used for night vision potions, they can give a long period of night vision.
+# Since people do use them as their main food item, it could be left commented out
+golden_carrot:
+  - [night_vision, 30, 1]
+
+# WHAT A MISSED OPPORTUNITY
+# Simple, glow berries give you the glowing effect. Ugh. Literally the first reason why I made this pack.
+# Duration is 10 seconds, matches up with the duration of glowing from spectral arrows
+# They can also give some regeneration, to match up with sweet berries.
+glow_berries:
+  - [glowing, 10, 1]
+  - [regeneration, 5, 1]
+
+# Mushroom Stew, the OG recipe from back in the days, hardly ever crafted now.
+# I thought it was such an interesting food item back when it was the only thing you could scrap for food in the Nether. You had to collect two kinds of mushrooms, and it took up three-four slots, so you had to do inventory management.
+# Now you easily farm porkchops from Hoglins. It had a charm, reminding me of the paulsoaresjr days, where it was really about surviving and scavenging.
+# Reminiscing aside, mushroom stew is used now in SoupPVP, granting you health and regen instantly without needing to hold down RMB.
+# Since it is troublesome to assemble, and nostalgic in nature, its effects can be quite stacked.
+mushroom_stew:
+  - [instant_health, 1, 1]
+  - [regeneration, 10, 2]
+
+# Beetroot soup, ah, beetroup soup. How useless thou art.
+# It grants the same hunger points than the six individual beetroots combined that were used to craft it.
+# Beetroots are also quite rare, so its potion effects should give something interesting
+# Instant Health III. Better than the best brewable Instant Health II potion, but no one uses the regular potions anyways, everyone uses the splash version.
+# I didn't want to set it too high either; it's hard to die when everyone's in full Netherite, and then someone chugs one of these.
+# So, something short-lived – resistance, too. Something like a soft Turtle Master.
+beetroot_soup:
+  - [instant_health, 1, 3]
+  - [resistance, 3, 3]
+
+# An upgrade from Cooked Rabbit, longer duration.
+# Rabbit Stew also gives the highest hunger points than any other food?? But no one's talking about it??
+# It is also ridiculously complicated to assemble and craft. Bowls are hard to manage
+# So it should be worth these status effects.
+rabbit_stew:
+  - [speed, 60, 1]
+  - [jump_boost, 60, 1]
+
+# Chorus Fruit teleport you, thematically alike to Endermen
+# It's hard to know where Endermen are after they teleport around
+# What if players get quick invisibility after they teleport. Players get a head start in escaping or manoeuvring to a better position.
+# Right now, nobody really uses them anyways, because the few seconds of chomping time is more trouble than an uncertain 3 block's teleportation is worth.
+# Beesides, there are some particle effects where they land after teleporting, so it's not overpowered.
+# And. Chorus fruit are an end-game item, so something powerful like invisibility is apt.
+chorus_fruit:
+  - [invisibility, 3, 1]
+
+# milk_bucket:
+#   - [regeneration, 10, 1]
+
+# Everyone knows how useless poisonous potatoes are. They're meant to be an ambient item.
+# Functionally, they're not even good at being bad: they have a unreliable random chance to give poison, and even then it only takes away, what, 1.5 hearts?
+# Some survival-built minigames require players to start at half-a-heart. They would have to mass-brew poison potions, and it's a whole mess.
+# What if poisonous potatoes do just that for you, since they are a very numerous byproduct of regular potato farming. They would also be reliable, always giving the same level of poison.
+poisonous_potato:
+  - [poison, 5, 5]
+  - [poison, 25, 1]
+  - [hunger, 5, 2]

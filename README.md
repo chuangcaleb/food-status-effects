@@ -1,6 +1,6 @@
 # Food Status Effects
 
-> Give relevancy to obscure foods
+> Adds relevancy and status buffs to obscure foods
 
 Concepts
 
@@ -20,3 +20,7 @@ Framework:
 - Meat: Strength?
 - Stew: Health
 - Fats & Carbs: Resistance, Saturation, Slowness
+
+Foods can be an early-game option for utility and convenience, but must not be a late-game substitute for potions.
+
+Common consumables (only Cooked Beef, really) are left untouched. Since everyone only eats Cooked Beef, sometimes Golden Apples, this pack would not be an interference for like, 90% of players' playstyles. Then, if people don't like this tweak, they can just ignore it!
