@@ -12,4 +12,4 @@ meta:
   installation_advancement:
     icon:
       item: minecraft:apple
-    project_advancement_path: cchesed:_installed
+    project_advancement_path: food_status_effects:_installed
