@@ -113,12 +113,13 @@ dried_kelp:
 
 # cooked_beef: too normie
 # cooked_porkchop: too normie
-# cooked_chicken: slow falling? but that'd be too end-game
+# cooked_chicken:
+#   - [slow_falling, 10, 1] # but that'd be too end-game
 
 # Nobody ever eats mutton, when Cooked Beef or even Cooked Porkchops are a thing.
 # Since sheep have a layer of thick wool, what if mutton grants resistance?
-cooked_mutton:
-  - [resistance, 15, 1]
+# cooked_mutton:
+#   - [resistance, 15, 1]
 
 # No one ever considers having rabbit. They're so challenging to catch to kill, and no one makes a rabbit farm either.
 # Jump Boost I would be an interesting effect. Some players would be able to leap over fences or larger gaps, which would make for interesting PVP/PVE situations.
