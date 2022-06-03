@@ -16,11 +16,11 @@ Foods can be an early-game option for utility and convenience, but must not be a
 
 Common consumables (only Cooked Beef, really) are left untouched. Since everyone only eats Cooked Beef, sometimes Golden Apples, this pack would not be an interference for like, 90% of players' playstyles. Then, if people don't like this tweak, they can just ignore it!
 
-See [data.yml](data.yml) for each tweak and the reasoning in the comments.
+See [effects_config](effects_config) for each tweak and the reasoning in the comments.
 
 ## Customization and Contribution
 
- This pack uses [beet](https://github.com/mcbeet/beet) as a development kit. You could edit [data.yml](data.yml) and recompile to get a pack with your own customized food status effects!
+ This pack uses [beet](https://github.com/mcbeet/beet) as a development kit. You could edit [effects_config](effects_config) and recompile to get a pack with your own customized food status effects!
 
  ```sh
 beet -p beet-custom.yml build

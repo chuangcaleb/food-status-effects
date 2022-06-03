@@ -48,7 +48,7 @@ def generate_files(ctx: Context):
         )
     )
 
-    with open('data.yml', 'r') as file:
+    with open('effects_config.yml', 'r') as file:
         data = yaml.safe_load(file)
 
         tick_check = []
