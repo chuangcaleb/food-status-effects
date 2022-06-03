@@ -1,0 +1,16 @@
+extend:
+  - default.yml
+output: render
+description: Regular foods also give small status effects!
+name: Food Status Effects Pack v1.0
+data_pack:
+  name: food-status-effects
+
+pipeline:
+  - plugins.food_status.food_status
+
+meta:
+  installation_advancement:
+    icon:
+      item: minecraft:apple
+    project_advancement_path: cchesed:foodstatus/installed

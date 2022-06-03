@@ -1,8 +1,13 @@
 author: cchesed
-
+output: render
+require:
+  - mecha.contrib.relative_location
+  - mecha.contrib.statistics
 pipeline:
   - beet.contrib.installation_advancement
   - plugins.credits
+  - mecha
+  # - plugins.stats
 data_pack:
   load: src
   render:
@@ -14,3 +19,5 @@ meta:
     author_description: https://www.planetminecraft.com/member/calebchan/
   credits:
     link: https://www.planetminecraft.com/member/calebchan/
+  mecha:
+    version: 1.19

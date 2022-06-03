@@ -1,0 +1,117 @@
+# ---------------------------------- sugars ---------------------------------- #
+
+apple:
+  - [speed, 10, 1]
+  - [regeneration, 5, 1]
+
+melon_slice:
+  - [regeneration, 1, 4]
+
+pumpkin_pie:
+  - [speed, 1, 1]
+
+honey_bottle:
+  - [haste, 10, 1]
+  # - [regeneration, 5, 2]
+  # - [absorption, 30, 1]
+
+cookie:
+  - [speed, 10, 3]
+
+sweet_berries:
+  - [speed, 10, 1]
+
+# enchanted_golden_apple:
+# - [speed, 1, 1]
+
+# ---------------------------------- utility --------------------------------- #
+
+golden_apple:
+  # - [absorption, 5, 3]
+  - [regeneration, 5, 3]
+
+golden_carrot:
+  - [night_vision, 20, 1]
+
+glow_berries:
+  - [glowing, 10, 1]
+
+mushroom_stew:
+  - [instant_health, 1, 1]
+  - [regeneration, 10, 2]
+
+beetroot_soup:
+  - [strength, 10, 1]
+
+rabbit_stew:
+  - [speed, 30, 1]
+  - [jump_boost, 30, 1]
+
+chorus_fruit:
+  - [invisibility, 3, 1]
+
+milk_bucket:
+  - [regeneration, 10, 1]
+
+spider_eye:
+  - [night_vision, 10, 1]
+
+poisonous_potato:
+  - [poison, 5, 5]
+  - [poison, 25, 1]
+
+# pufferfish:
+#   - [speed, 1, 1]
+
+#   - [haste, 10, 1]
+#   - [speed, 10, 3]
+#   - [slowness, 30, 1]
+#   - [weakness, 30, 1]
+
+# ----------------------------------- carbs ---------------------------------- #
+
+bread:
+  - [resistance, 10, 1]
+
+potato:
+  - [resistance, 3, 1]
+
+baked_potato:
+  - [resistance, 20, 1]
+
+carrot:
+  - [speed, 1, 1]
+
+beetroot:
+  - [speed, 1, 1]
+
+# steak:
+#   - [speed, 1, 1]
+
+# cooked_chicken:
+#   - [speed, 1, 1]
+
+# ----------------------------------- meat ----------------------------------- #
+
+# cooked_porkchop:
+#   - [speed, 1, 1]
+
+cooked_mutton:
+  - [resistance, 20, 1]
+
+cooked_rabbit:
+  - [speed, 10, 1]
+  - [jump_boost, 10, 1]
+
+# ----------------------------------- ocean ---------------------------------- #
+
+cooked_salmon:
+  - [dolphins_grace, 10, 1]
+
+cooked_cod:
+  - [dolphins_grace, 5, 1]
+  - [water_breathing, 5, 1]
+
+dried_kelp:
+  - [water_breathing, 10, 1]
+  - [hunger, 2, 1]

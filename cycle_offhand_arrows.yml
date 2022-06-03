@@ -10,8 +10,6 @@ data_pack:
   description:
     Cycle your arrow types in the offhand by pressing the offhand hotkey
     while holding a bow or crossbow!
-pipeline:
-  - beet.contrib.scoreboard
 meta:
   installation_advancement:
     icon:
