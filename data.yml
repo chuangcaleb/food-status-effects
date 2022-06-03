@@ -31,9 +31,9 @@ pumpkin_pie:
 # Thought it looked kind of golden + sweet, so regeneration and absorption like a GApple. They're different enough, since they stack to 16, spits out empty bottles.
 # They could also grant haste, because of the term "busy bee".
 honey_bottle:
-  - [haste, 10, 1]
+  - [haste, 5, 1]
   # - [regeneration, 5, 2]
-  # - [absorption, 30, 1]
+  - [absorption, 30, 1]
 
 # Cookies are small bites, 8 per craft.
 # Coaca Beans are quite elusive to obtain and niche to use (no other uses).
@@ -92,6 +92,9 @@ cod:
 cooked_cod:
   - [dolphins_grace, 6, 1]
   - [water_breathing, 6, 1]
+
+# tropical_fish:
+#   - #TODO: grant random effect?
 
 # Players never visit the ocean floor because of the hassle of swimming up when they lose their air bubbles, or they just bring a bunch of doors for air pockets.
 # Dried Kelp are quick snacks that grant one hunger point.
@@ -174,8 +177,8 @@ beetroot_soup:
 # It is also ridiculously complicated to assemble and craft. Bowls are hard to manage
 # So it should be worth these status effects.
 rabbit_stew:
-  - [speed, 60, 1]
-  - [jump_boost, 60, 1]
+  - [speed, 45, 1]
+  - [jump_boost, 45, 1]
 
 # Chorus Fruit teleport you, thematically alike to Endermen
 # It's hard to know where Endermen are after they teleport around
