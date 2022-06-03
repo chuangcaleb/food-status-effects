@@ -183,8 +183,10 @@ beetroot_soup:
 # It is also ridiculously complicated to assemble and craft. Bowls are hard to manage
 # So it should be worth these status effects.
 rabbit_stew:
-  - [speed, 45, 1]
-  - [jump_boost, 45, 1]
+  - [speed, 15, 2]
+  - [speed, 30, 1]
+  - [jump_boost, 15, 2]
+  - [jump_boost, 30, 1]
 
 # Chorus Fruit teleport you, thematically alike to Endermen
 # It's hard to know where Endermen are after they teleport around
