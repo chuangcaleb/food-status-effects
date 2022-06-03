@@ -1,7 +1,6 @@
 """Plugin to generate all food status effects"""
 
-from beet import Context, Function, configurable, Advancement
-from . import data as data
+from beet import Context, Function, Advancement
 import yaml
 
 

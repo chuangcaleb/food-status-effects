@@ -1,0 +1,4 @@
+extend:
+  - beet-release.yml
+output: releases
+version: "(custom)"

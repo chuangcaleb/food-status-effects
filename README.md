@@ -1,4 +1,4 @@
-# Food Status Effects Datapack
+# Food Status Effects Data Pack
 
 > Adds relevancy and status buffs to obscure foods
 
@@ -18,9 +18,19 @@ Common consumables (only Cooked Beef, really) are left untouched. Since everyone
 
 See [data.yml](data.yml) for each tweak and the reasoning in the comments.
 
+## Customization and Contribution
+
+ This pack uses [beet](https://github.com/mcbeet/beet) as a development kit. You could edit [data.yml](data.yml) and recompile to get a pack with your own customized food status effects!
+
+ ```sh
+beet -p beet-custom.yml build
+ ```
+
+ It will create a .zip file in the releases directory named "food_status_effects_(custom)_data_pack.zip". Use this as your custom data pack.
+
 ## Examples
 
-Here are some interesting status effects that foods can give with this datapack:
+Here are some interesting status effects that foods can give with this data pack:
 
 ```yaml
 # Players never visit the ocean floor because of the hassle of swimming up when they lose their air bubbles, or they just bring a bunch of doors for air pockets.

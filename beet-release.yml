@@ -1,6 +1,6 @@
 extend:
-  - cycle_offhand_arrows.yml
-version: 0.1.0
+  - food-status-effects.yml
+version: "1.0"
 output: releases
 data_pack:
   zipped: true
