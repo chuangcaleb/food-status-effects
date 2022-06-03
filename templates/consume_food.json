@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "cchesed:foodstatus/{{food}}"
+		"function": "food_status_effects:food_effect/{{food}}"
 	}
 }

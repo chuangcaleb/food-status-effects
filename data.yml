@@ -195,10 +195,10 @@ rabbit_stew:
 chorus_fruit:
   - [invisibility, 3, 1]
 
-# milk_bucket:
-#   - [regeneration, 10, 1]
-# cake:
-#   - [regeneration, 10, 1]
+milk_bucket:
+  - [regeneration, 10, 1]
+cake:
+  - [regeneration, 10, 1]
 
 # Everyone knows how useless poisonous potatoes are. They're meant to be an ambient item.
 # Functionally, they're not even good at being bad: they have a unreliable random chance to give poison, and even then it only takes away, what, 1.5 hearts?

@@ -10,9 +10,9 @@ pipeline:
   # - plugins.stats
 data_pack:
   load: src
-  render:
-    functions:
-      - "cchesed:"
+  # render:
+  #   functions:
+  #     - "foodstatus:"
 
 meta:
   installation_advancement:

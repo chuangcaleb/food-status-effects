@@ -3,8 +3,8 @@ extend:
 output: render
 description: Adds relevancy and status buffs to obscure foods!
 name: Food Status Effects
-# data_pack:
-#   name: food-status-effects
+data_pack:
+  name: food-status-effects
 pipeline:
   - plugins.food_status
 
@@ -12,4 +12,4 @@ meta:
   installation_advancement:
     icon:
       item: minecraft:apple
-    project_advancement_path: cchesed:foodstatus/_installed
+    project_advancement_path: cchesed:_installed
