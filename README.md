@@ -62,7 +62,7 @@ glow_berries:
 # It's hard to know where Endermen are after they teleport around
 # What if players get quick invisibility after they teleport. Players get a head start in escaping or manoeuvring to a better position.
 # Right now, nobody really uses them anyways, because the few seconds of chomping time is more trouble than an uncertain 3 block's teleportation is worth.
-# Beesides, there are some particle effects where they land after teleporting, so it's not overpowered.
+# Besides, there are some particle effects where they land after teleporting, so it's not overpowered.
 # And. Chorus fruit are an end-game item, so something powerful like invisibility is apt.
 chorus_fruit:
   - [invisibility, 3, 1]
