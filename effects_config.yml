@@ -36,8 +36,8 @@ pumpkin_pie:
 # Thought it looked kind of golden + sweet, so regeneration and absorption like a GApple. They're different enough, since they stack to 16, spits out empty bottles.
 # They could also grant haste, because of the term "busy bee".
 honey_bottle:
-  - [haste, 5, 1]
-  # - [regeneration, 5, 2]
+  - [haste, 10, 1]
+  - [regeneration, 5, 1]
   - [absorption, 30, 1]
 
 # Cookies are small bites, 8 per craft.
@@ -195,10 +195,24 @@ rabbit_stew:
 chorus_fruit:
   - [invisibility, 3, 1]
 
+# Milk gives you resistance, because strong bones lol
+# It also cleanses you of effects, so regen is thematic too
 milk_bucket:
-  - [regeneration, 10, 1]
+  - [resistance, 10, 1]
+  - [regeneration, 20, 1]
+
+# Cake is probably the most iconic item that is has many components to assemble
+# Wheat, egg, milk, sugar
+# I just threw in a bunch of things
+# Cake is more of a vanity food than a continuous food source, so I've put in a lot of negative effecs
+# You get speed at first, but slowness later
+# Haste II, in particular. As cake is meticulous to assemble, and fixed in one place — this may make it worth it to craft
 cake:
-  - [regeneration, 10, 1]
+  - [haste, 10, 2]
+  - [resistance, 30, 1]
+  - [speed, 10, 3]
+  - [slowness, 20, 1]
+  - [weakness, 30, 1]
 
 # Everyone knows how useless poisonous potatoes are. They're meant to be an ambient item.
 # Functionally, they're not even good at being bad: they have a unreliable random chance to give poison, and even then it only takes away, what, 1.5 hearts?
